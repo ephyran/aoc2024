@@ -76,4 +76,6 @@ int main (void) {
 
     printf("Safe report count: %d\n", safe_lines);
     fclose(fp);
+
+    return 0;
 }
