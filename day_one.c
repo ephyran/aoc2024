@@ -127,5 +127,7 @@ int main (void) {
     free(first_buffer.data);
     free(second_buffer.data);
 
+    fclose(fp);
+
     return 0;
 }
